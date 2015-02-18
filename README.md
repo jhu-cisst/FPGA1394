@@ -16,3 +16,8 @@ Design files for FPGA1394 board (FPGA + FireWire) in Altium Designer format.
  * Added J10 jumper on power input from IEEE-1394 (jumper OFF -> no power from IEEE-1394)
  * Changed J9 from 4-pin 2 mm header to 5-pin 0.1" header; pin 5 is connected to GND
  * Did not populate U12 (29.4989 MHz oscillator); use FPGA PLL to generate this frequency
+* Rev 1.3: Build #4
+ * Added protection diodes (D10-D17), shunt regulator (U12), and supporting components to FireWire signal lines
+ * Enable off-board 5V and 3.3V power (via U4 and U5) after local 5V power is good (determined by U9)
+ * Added holes/pads on PCB traces for 5V, 3.3V, and 1.2V power supplies to facilitate troubleshooting
+ * Removed 29.4989 MHz oscillator (U12) and supporting components from PCB and BOM (was "Do Not Install")
