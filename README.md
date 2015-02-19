@@ -21,3 +21,4 @@ Design files for FPGA1394 board (FPGA + FireWire) in Altium Designer format.
  * Enable off-board 5V and 3.3V power (via U4 and U5) after local 5V power is good (determined by U9)
  * Added holes/pads on PCB traces for 5V, 3.3V, and 1.2V power supplies to facilitate troubleshooting
  * Removed 29.4989 MHz oscillator (U12) and supporting components from PCB and BOM (was "Do Not Install")
+ * Modified U2 footprint to accommodate all variants of SO-8 package
