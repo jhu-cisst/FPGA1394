@@ -22,3 +22,4 @@ Design files for FPGA1394 board (FPGA + FireWire) in Altium Designer format.
  * Added holes/pads on PCB traces for 5V, 3.3V, and 1.2V power supplies to facilitate troubleshooting
  * Removed 29.4989 MHz oscillator (U12) and supporting components from PCB and BOM (was "Do Not Install")
  * Modified U2 footprint to accommodate all variants of SO-8 package
+ * Changed internal layers from 2 oz to 1 oz copper
