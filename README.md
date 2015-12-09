@@ -32,7 +32,7 @@ Design files for FPGA1394 board (FPGA + FireWire) in Altium Designer format.
  * Changed FPGA oscillator from 40 MHz (pin AB12) to 25 MHz (pin M3).
  * Changes to the I/O pin connections on the FPGA (see schematic).
 * Rev 2.1: Build #5
- * Moved power connector (J5) to make more space for JTAG connector (J8).
+ * Moved power connector (J5) to increase space for JTAG connector (J8).
  * Corrected connection of "ST" and "FPGA PROG" LEDs (were swapped in Rev 2.0).
- * Fixed one unconnected GND test point, moved voltage test points, and added GND test point.
- * Changes to facilitate board assembly: wider slot spacing for IEEE-1394 connector, notch on board edge for better seating of IEEE-1394 connector, changed pad size for L1-L3 to match manufacturer datasheet.
+ * Fixed one unconnected GND test point, moved voltage test points, and added one more GND test point.
+ * Changes to facilitate board assembly: wider slot spacing for IEEE-1394 connector, notch on board edge for better seating of IEEE-1394 connector, changed pad size for L1-L3.
