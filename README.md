@@ -23,3 +23,10 @@ Design files for FPGA1394 board (FPGA + FireWire) in Altium Designer format.
  * Removed 29.4989 MHz oscillator (U12) and supporting components from PCB and BOM (was "Do Not Install")
  * Modified U2 footprint to accommodate all variants of SO-8 package
  * Changed internal layers from 2 oz to 1 oz copper
+* Rev 2.0: Prototype build (3 boards)
+ * Added 10BASE-T/100BASE-TX Ethernet port using Micrel KSZ8851-16MLL MAC/PHY chip.
+ * Redesigned DC/DC power supplies (5V, 3.3V, and 1.2V) to provide higher output currents.
+ * Removed USB Mini connector (J6) and associated USB to UART bridge chip (CP2103). It is still possible to obtain a USB interface by connecting an appropriate TTL to USB Serial Converter Cable to header J9.
+ * Removed jumper (J10) that allowed board to obtain power from IEEE-1394 cable (this feature was never used).
+ * Changed FPGA crystal from 40 MHz (pin AB12) to 25 MHz (pin M3).
+ * Changes to the I/O pin connections on the FPGA (see schematic).
