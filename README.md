@@ -1,5 +1,7 @@
 # FPGA1394
-Design files for FPGA1394 board (FPGA + FireWire) in Altium Designer format.
+Design files for FPGA1394 board (FPGA + FireWire), Rev 1.x and 2.x, in Altium Designer format.
+The design files for Rev 3.x are in [this repository](https://github.com/jhu-cisst/FPGA1394V3).
+
 
 * `FPGA.PrjPCB`: Altium Designer project file
 * `Snn.SchDoc`: schematics (Altium Designer format)
@@ -31,8 +33,9 @@ Design files for FPGA1394 board (FPGA + FireWire) in Altium Designer format.
   * Removed diode isolation between power supply connectors J5 and J7; power should be connected to only one of these.
   * Changed FPGA oscillator from 40 MHz (pin AB12) to 25 MHz (pin M3).
   * Changes to the I/O pin connections on the FPGA (see schematic).
-* Rev 2.1: Build #5 (92 boards), Build #6 (75 boards), Build #7 (120 boards)
+* Rev 2.1: Build #5 (92 boards), Build #6 (75 boards), Build #7 (120 boards), Build #8 (80 boards)
   * Moved power connector (J5) to increase space for JTAG connector (J8).
   * Corrected connection of "ST" and "FPGA PROG" LEDs (were swapped in Rev 2.0).
   * Fixed one unconnected GND test point, moved voltage test points, and added one more GND test point.
   * Changes to facilitate board assembly: wider slot spacing for IEEE-1394 connector, notch on board edge for better seating of IEEE-1394 connector, changed pad size for L1-L3.
+* Rev 3.x: See [this repository](https://github.com/jhu-cisst/FPGA1394V3)
